@@ -109,6 +109,9 @@ NSInteger const MTDateConstantHoursInDay        = 24;
     }
 
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
+    NSString *currentLocaleString = [[[NSBundle mainBundle] preferredLocalizations] objectAtIndex:0];
+    NSLocale *formatterLocale = [[NSLocale alloc] initWithLocaleIdentifier:currentLocaleString];
+    [formatter setLocale:formatterLocale];
     [formatter setCalendar:[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian]];
     [formatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
 
