@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD31B42F1D194E9300560600"
-               BuildableName = "MTDates.framework"
-               BlueprintName = "MTDates"
+               BlueprintIdentifier = "C20254B91751027100B6F23C"
+               BuildableName = "libMTDates.a"
+               BlueprintName = "MTDatesLib"
                ReferencedContainer = "container:MTDates.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD31B42F1D194E9300560600"
-            BuildableName = "MTDates.framework"
-            BlueprintName = "MTDates"
+            BlueprintIdentifier = "C20254B91751027100B6F23C"
+            BuildableName = "libMTDates.a"
+            BlueprintName = "MTDatesLib"
             ReferencedContainer = "container:MTDates.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD31B42F1D194E9300560600"
-            BuildableName = "MTDates.framework"
-            BlueprintName = "MTDates"
+            BlueprintIdentifier = "C20254B91751027100B6F23C"
+            BuildableName = "libMTDates.a"
+            BlueprintName = "MTDatesLib"
             ReferencedContainer = "container:MTDates.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
