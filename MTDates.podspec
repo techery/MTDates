@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         	= "MTDates"
-  s.version      	= "1.0.3.1"
+  s.version      	= "1.0.3.3"
   s.summary      	= "A category on NSDate. 100+ date calculation methods."
   s.homepage     	= "https://github.com/mysterioustrousers/MTDates"
   s.license      	= 'MIT'
