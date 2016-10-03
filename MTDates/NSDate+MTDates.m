@@ -1555,7 +1555,7 @@ NSInteger const MTDateConstantHoursInDay        = 24;
 
 - (NSString *)mt_stringFromDateWithISODateTime
 {
-    return [self mt_stringFromDateWithFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'" localized:NO];
+    return [[self mt_inTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]] mt_stringFromDateWithFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'" localized:NO];
 }
 
 - (NSString *)mt_stringFromDateWithGreatestComponentsForSecondsPassed:(NSTimeInterval)interval
